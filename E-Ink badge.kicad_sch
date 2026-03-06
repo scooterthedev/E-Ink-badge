@@ -4635,6 +4635,18 @@
 		(uuid "0f46e267-4f8a-4c0d-813d-a6dfc309d079")
 	)
 	(rectangle
+		(start 110.49 11.9272)
+		(end 142.9632 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3ae8a13a-1ee8-401d-b997-ad4a554fd68e")
+	)
+	(rectangle
 		(start 186.69 13.97)
 		(end 281.94 86.36)
 		(stroke
@@ -5140,6 +5152,54 @@
 		)
 		(uuid "ffee5736-4114-4de4-b4d8-f62fd412cb5f")
 	)
+	(global_label "GPIO_W"
+		(shape input)
+		(at 81.28 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02be77b5-8af2-46c7-85cf-bc2924fb0292")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.1595 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO_A"
+		(shape input)
+		(at 81.28 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03a8b3d6-b856-4196-a372-bfde99d5124e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.7967 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RESE"
 		(shape input)
 		(at 252.73 26.67 180)
@@ -5233,6 +5293,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_D"
+		(shape input)
+		(at 81.28 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a7619ed-4233-4961-928a-fb48dbf2adbf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.9781 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5377,6 +5461,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_A"
+		(shape input)
+		(at 139.7 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3347f8ca-8b64-4485-bf53-54e74797d46c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 12.0733 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5596,6 +5704,30 @@
 			)
 		)
 	)
+	(global_label "GPIO_W"
+		(shape input)
+		(at 123.19 21.59 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51c8e848-8f90-496e-8317-93731a58a3bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 11.7105 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VSL"
 		(shape input)
 		(at 252.73 74.93 180)
@@ -5617,6 +5749,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_D"
+		(shape input)
+		(at 139.7 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c94d4e7-12cf-4a98-9e94-83dc1d2934d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.7 24.5919 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6102,7 +6258,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 30.48 54.61 180)
+		(at 22.86 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6112,7 +6268,7 @@
 		)
 		(uuid "d4af88f8-ceee-4575-9d42-aaa3c1424d5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.6524 54.61 0)
+			(at 17.0324 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,6 +6277,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO_S"
+		(shape input)
+		(at 81.28 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d50a0a34-f5e7-4734-ab1d-25881d1d7e71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.9176 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6292,6 +6472,30 @@
 			)
 		)
 	)
+	(global_label "GPIO_S"
+		(shape input)
+		(at 123.19 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f06aaaa0-eedf-48eb-ba34-79d13d147af9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 24.6524 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BOOTSEL"
 		(shape input)
 		(at 35.56 123.19 0)
@@ -6342,7 +6546,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 30.48 57.15 180)
+		(at 22.86 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6352,7 +6556,7 @@
 		)
 		(uuid "f709c98e-0b9a-4b09-9cd5-66fd06f7ec90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.6524 57.15 0)
+			(at 17.0324 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,6 +7920,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21c70d07-9d12-47b7-9fd5-c29498721212")
+		(property "Reference" "SW4"
+			(at 134.62 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "A"
+			(at 134.62 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b1a4ba3-2991-4c84-beba-e02a703c72ba")
+		)
+		(pin "2"
+			(uuid "50ccdea5-fa5c-4ed4-942d-b5b1bf88c207")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.11 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "244e12a2-cf59-470b-ab2c-c0b8e18e1465")
+		(property "Reference" "SW5"
+			(at 118.11 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S"
+			(at 118.11 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "344672fc-8164-4c87-bc12-a9c217384ae2")
+		)
+		(pin "2"
+			(uuid "bad78103-c043-4a4c-b996-b89ea94fa04f")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 215.9 66.04 180)
 		(unit 1)
@@ -7950,6 +8314,86 @@
 			(project "E-Ink badge"
 				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "389f8a48-41d8-4627-b7cd-05403ad7f939")
+		(property "Reference" "#PWR036"
+			(at 129.54 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.5399 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f0b7dcb-433f-4d88-a914-303bba233967")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9861,6 +10305,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 26.67 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c2b24ad-8673-4952-80fd-c8db18355b0a")
+		(property "Reference" "R7"
+			(at 27.686 52.324 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27Ω"
+			(at 28.702 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 56.388 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbc67dcf-2b34-4d2d-8495-a4045b6595cd")
+		)
+		(pin "2"
+			(uuid "77b20753-6001-4ee4-b8a7-5f92feeaf999")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 204.47 33.02 0)
 		(unit 1)
@@ -10110,6 +10635,86 @@
 			(project "E-Ink badge"
 				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98532d43-3df2-4919-a896-2e2b3911ab33")
+		(property "Reference" "#PWR035"
+			(at 113.03 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.0299 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ffdbe9b-f275-4f0e-a7a5-40b7edc479a3")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10516,6 +11121,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3979a1c-f6fb-41e0-b820-e47b5399c7cd")
+		(property "Reference" "SW6"
+			(at 134.62 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 134.62 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a7efdf2-1ab8-404f-b0bc-92dd82a75536")
+		)
+		(pin "2"
+			(uuid "2fb93389-03d3-494c-a7eb-74a913246ee7")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 20.32 85.09 270)
 		(unit 1)
@@ -10847,6 +11532,87 @@
 			(project "E-Ink badge"
 				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbe4c217-3309-450c-8144-936e61600bda")
+		(property "Reference" "R8"
+			(at 25.4 59.436 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27Ω"
+			(at 24.638 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 55.372 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "934a16bf-efb4-4f3e-bbfd-6f9183d20e1d")
+		)
+		(pin "2"
+			(uuid "c1bf51a7-338d-4b78-b507-9d586cb75169")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11238,6 +12004,86 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 129.54 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c672fb-3673-453a-8335-84ab864a573d")
+		(property "Reference" "#PWR037"
+			(at 129.54 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.5399 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aa0cbda-8e84-4b36-8468-78c259ee07ad")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 252.73 62.23 270)
 		(unit 1)
 		(body_style 1)
@@ -11468,6 +12314,86 @@
 			(project "E-Ink badge"
 				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.11 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d22d89e7-4669-4ead-a1ea-625f8c141bda")
+		(property "Reference" "SW3"
+			(at 118.11 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W"
+			(at 118.11 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25f5330d-33b2-4d73-a9d7-f69bc21b00a8")
+		)
+		(pin "2"
+			(uuid "66949166-f531-4d51-84a2-c97d07601d16")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -11983,6 +12909,86 @@
 			(project "E-Ink badge"
 				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec3d0ec8-d976-490c-863e-5030b3ba887e")
+		(property "Reference" "#PWR034"
+			(at 113.03 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.0299 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d872a5c3-3e41-4132-9701-4530f9a7a61f")
+		)
+		(instances
+			(project "E-Ink badge"
+				(path "/e6dcffbe-db6d-423b-9272-f8bf9802780a"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
